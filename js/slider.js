@@ -52,7 +52,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 4000,
         dots: false,
-        // arrows: false,
+        arrows: false,
         focusOnSelect: true,
     });
 });

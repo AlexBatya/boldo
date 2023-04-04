@@ -239,7 +239,7 @@ header .header__body .sliderHead__shell {
   background: linear-gradient(90deg, #0A2640 0%, rgba(10, 38, 64, 0.109375) 31.6%, rgba(10, 38, 64, 0) 72.89%, #0A2640 97.87%) !important;
 }
 header .header__body .sliderHeader {
-  margin: 100px 0 0 0;
+  margin: 150px 0 0 0;
 }
 header .header__body .sliderHeader .slide__item__content {
   display: flex;
@@ -262,6 +262,9 @@ header .header__body .sliderHeader .slick-list {
 }
 header .header__body .sliderHeader .slick-list .slick-track {
   display: flex;
+}
+header .header__body .sliderHeader .slick-slide {
+  margin: 0 32px;
 }
 header .header__body .sliderHeader .slick-arrow {
   position: absolute;
@@ -447,12 +450,15 @@ main .main__body__container .girlContact .ContText ul li:hover {
 main .main__body__container .girlContact .ContText ul li:hover img {
   background-color: white;
 }
-main .main__body__container .Anterprice {
-  margin: 150px auto 0 auto;
-  max-width: 1440px;
+
+.Anterprice {
+  margin: 150px 0 0 0;
   background-color: #0A2640;
 }
-main .main__body__container .Anterprice h3 {
+.Anterprice__body__container {
+  padding: 96px 0;
+}
+.Anterprice h3 {
   max-width: 720px;
   margin: 0 0;
   font-style: normal;
@@ -461,10 +467,15 @@ main .main__body__container .Anterprice h3 {
   line-height: 72px;
   color: #FFFFFF;
 }
-main .main__body__container .Anterprice .sliderAnter {
+.Anterprice .sliderAnter {
   margin: 100px 0 0 0;
 }
-main .main__body__container .Anterprice .sliderAnter .slide__item .content {
+.Anterprice .sliderAnter .slide__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Anterprice .sliderAnter .slide__item .content {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -473,7 +484,7 @@ main .main__body__container .Anterprice .sliderAnter .slide__item .content {
   background-color: white;
   border-radius: 12px;
 }
-main .main__body__container .Anterprice .sliderAnter .slide__item .content .text {
+.Anterprice .sliderAnter .slide__item .content .text {
   margin: 0 0 40px 0;
   font-style: normal;
   font-weight: 400;
@@ -481,7 +492,7 @@ main .main__body__container .Anterprice .sliderAnter .slide__item .content .text
   line-height: 36px;
   color: #000000;
 }
-main .main__body__container .Anterprice .sliderAnter .slide__item .content .person {
+.Anterprice .sliderAnter .slide__item .content .person {
   width: 100%;
   display: grid;
   grid-template-columns: 25% 65%;
@@ -489,43 +500,46 @@ main .main__body__container .Anterprice .sliderAnter .slide__item .content .pers
   align-items: center;
   gap: 10%;
 }
-main .main__body__container .Anterprice .sliderAnter .slide__item .content .person img {
+.Anterprice .sliderAnter .slide__item .content .person img {
   grid-area: 1/1/3/2;
 }
-main .main__body__container .Anterprice .sliderAnter .slide__item .content .person .name {
+.Anterprice .sliderAnter .slide__item .content .person .name {
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
   line-height: 32px;
   color: #0A2640;
 }
-main .main__body__container .Anterprice .sliderAnter .slide__item .content .person .discription {
+.Anterprice .sliderAnter .slide__item .content .person .discription {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
   color: #0A2640;
 }
-main .main__body__container .Anterprice .sliderAnter .slick-list {
+.Anterprice .sliderAnter .slick-slide {
+  margin: 0 11px;
+}
+.Anterprice .sliderAnter .slick-list {
   overflow: hidden;
 }
-main .main__body__container .Anterprice .sliderAnter .slick-list .slick-track {
+.Anterprice .sliderAnter .slick-list .slick-track {
   display: flex;
 }
-main .main__body__container .Anterprice .sliderAnter .slick-arrow {
+.Anterprice .sliderAnter .slick-arrow {
   position: absolute;
   border: none;
   font-size: 0;
   width: 30px;
   height: 30px;
 }
-main .main__body__container .Anterprice .sliderAnter .slick-prev {
+.Anterprice .sliderAnter .slick-prev {
   top: 100px;
   left: 20px;
   z-index: 10;
   background: url("./img/strelka.svg") #EDEDED 0/100% no-repeat;
 }
-main .main__body__container .Anterprice .sliderAnter .slick-next {
+.Anterprice .sliderAnter .slick-next {
   z-index: 10;
   top: 100px;
   right: 20px;

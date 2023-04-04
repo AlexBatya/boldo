@@ -288,7 +288,7 @@ header{
             background: linear-gradient(90deg, #0A2640 0%, rgba(10, 38, 64, 0.109375) 31.6%, rgba(10, 38, 64, 0) 72.89%, #0A2640 97.87%) !important;
         }
         .sliderHeader{
-            margin: 100px 0 0 0;
+            margin: 150px 0 0 0;
             .slide__item{
                 &__content{
                     display: flex;
@@ -312,6 +312,9 @@ header{
                 .slick-track{
                     display: flex;
                 }
+            }
+            .slick-slide{
+                margin: 0 32px;
             }
             .slick-arrow{       //Это стрелочки в целом
                 position: absolute;
@@ -523,96 +526,108 @@ main{
                     
                 }
             }
-            .Anterprice{
-                margin: 150px auto 0 auto ;
-                max-width: 1440px;
-                background-color: #0A2640;
-
-                // width: 100vw;
-                h3{
-                    max-width: 720px;
-                    margin: 0 0;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 48px;
-                    line-height: 72px;
-                    color: #FFFFFF;                    
-                }
-                .sliderAnter{
-                    margin: 100px 0 0 0;
-                    .slide__item{
-                            .content{
-                                display: flex;
-                                justify-content: center;
-                                flex-direction: column;
-                                align-items: flex-start;
-                                padding: 40px;
-                                background-color: white;
-                                border-radius: 12px;
-                                .text{
-                                    margin: 0 0 40px 0;
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 1.5rem;
-                                    line-height: 36px;
-                                    color: #000000;
-                                }
-                                .person{
-                                    width: 100%;
-                                    display: grid;
-                                    grid-template-columns: 25% 65%;
-                                    grid-template-rows: 45% 45% ;
-                                    align-items: center;
-                                    gap: 10%;
-                                    img{
-                                        grid-area: 1/1 /3 /2;
-                                    }
-                                    .name{
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        font-size: 1rem;
-                                        line-height: 32px;
-                                        color: #0A2640;
-                                    }
-                                    .discription{
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 14px;
-                                        line-height: 32px;
-                                        color: #0A2640;                                        
-                                    }
-                                }
-                            }
-                        }
-                    .slick-list{
-                        overflow: hidden;
-                        .slick-track{
-                            display: flex;
-                        }
-                    }
-                    .slick-arrow{       //Это стрелочки в целом
-                        position: absolute;
-                        border: none;
-                        font-size: 0;
-                        width: 30px;
-                        height: 30px;
-                    }
-                    .slick-prev{       //задняя стрелка
-                        top: 100px;
-                        left: 20px; 
-                        z-index: 10;
-                        background: url('./img/strelka.svg') #EDEDED 0 /100% no-repeat;
-
-                    }
-                    .slick-next{
-                        z-index: 10;
-                        top: 100px;
-                        right: 20px;
-                    }
-                }
-            }
+            
         }
     }
 
 }
 
+.Anterprice{
+    margin: 150px 0 0 0;
+    background-color: #0A2640;
+
+    // width: 100vw;
+    &__body{
+        &__container{
+            padding: 96px 0;
+        }
+    }
+    h3{
+        max-width: 720px;
+        margin: 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+        color: #FFFFFF;                    
+    }
+    .sliderAnter{
+        margin: 100px 0 0 0;
+        .slide__item{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            // max-width: 350px;
+            .content{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 40px;
+                background-color: white;
+                border-radius: 12px;
+                .text{
+                    margin: 0 0 40px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    line-height: 36px;
+                    color: #000000;
+                }
+                .person{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 25% 65%;
+                    grid-template-rows: 45% 45% ;
+                    align-items: center;
+                    gap: 10%;
+                    img{
+                        grid-area: 1/1 /3 /2;
+                    }
+                    .name{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        line-height: 32px;
+                        color: #0A2640;
+                    }
+                    .discription{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #0A2640;                                        
+                    }
+                }
+            }
+        }
+        .slick-slide{
+            margin: 0 11px ;
+        }
+        .slick-list{
+            overflow: hidden;
+            .slick-track{
+                display: flex;
+            }
+        }
+        .slick-arrow{       //Это стрелочки в целом
+            position: absolute;
+            border: none;
+            font-size: 0;
+            width: 30px;
+            height: 30px;
+        }
+        .slick-prev{       //задняя стрелка
+            top: 100px;
+            left: 20px; 
+            z-index: 10;
+            background: url('./img/strelka.svg') #EDEDED 0 /100% no-repeat;
+
+        }
+        .slick-next{
+            z-index: 10;
+            top: 100px;
+            right: 20px;
+        }
+    }
+}
