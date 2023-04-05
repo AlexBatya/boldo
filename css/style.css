@@ -543,4 +543,283 @@ main .main__body__container .girlContact .ContText ul li:hover img {
   z-index: 10;
   top: 100px;
   right: 20px;
+}
+
+.ContactTheBast {
+  margin: 124px 0 0 0;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.ContactTheBast__body__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.ContactTheBast__body__container .commentsFlex {
+  margin: 56px 0 0 0;
+  display: flex;
+  align-items: start;
+  gap: 6%;
+}
+.ContactTheBast__body__container .commentsFlex .text {
+  width: 47%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 56px;
+  color: #000000;
+}
+.ContactTheBast__body__container .commentsFlex .comments {
+  width: 47%;
+}
+.ContactTheBast__body__container .commentsFlex .comments hr {
+  margin: 0 0 32px 0;
+}
+.ContactTheBast__body__container .commentsFlex .comments .coment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 16px 0;
+}
+.ContactTheBast__body__container .commentsFlex .comments .coment .textCon {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.ourBlog {
+  margin: 156px 0 0 0;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.ourBlog__body__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.ourBlog__body__container h4 {
+  margin: 0 0 12px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #777777;
+}
+.ourBlog__body__container h2 {
+  margin: 0 0 77px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 72px;
+  color: #000000;
+}
+.ourBlog__body__container .btm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourBlog__body__container .btm button {
+  transition: 0.5s;
+  border-radius: 56px;
+  margin: 80px 0 0 0;
+  padding: 16px 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #0A2640;
+  border: 3px solid #0A2640;
+  background-color: white;
+}
+.ourBlog__body__container .btm button:hover {
+  color: white;
+  border: 3px solid #69E6A6;
+  background-color: #69E6A6;
+}
+.ourBlog__body__container .cardsFlexBlog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.ourBlog__body__container .cardsFlexBlog .cardBlog {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.ourBlog__body__container .cardsFlexBlog .cardBlog .category {
+  margin: 0 0 12px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #0A2640;
+}
+.ourBlog__body__container .cardsFlexBlog .cardBlog .category span {
+  margin: 0 0 0 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+}
+.ourBlog__body__container .cardsFlexBlog .cardBlog p {
+  min-height: 130px;
+  margin: 0 0 20px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: #000000;
+}
+.ourBlog__body__container .cardsFlexBlog .cardBlog .persone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ourBlog__body__container .cardsFlexBlog .cardBlog .persone .name {
+  margin: 0 0 0 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #000000;
+}
+
+.formMessage {
+  margin: 120px 0 84px 0;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0A2640;
+}
+.formMessage__shell {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+.formMessage__body__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.formMessage__body__container h2 {
+  padding: 72px 0 0 0;
+  margin: 0 auto;
+  max-width: 820px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+.formMessage__body form {
+  padding: 50px 0 74px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formMessage__body form input {
+  min-width: 370px;
+  margin: 0 24px 0 0;
+  padding: 12px 32px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 240px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2rem;
+  color: #000000;
+}
+.formMessage__body form button {
+  padding: 16px 56px;
+  background: #65E4A3;
+  border: 2px solid #65E4A3;
+  border-radius: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #0A2640;
+}
+
+footer .footer__body__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__body__container .part1 {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer__body__container .part1 .logo {
+  display: flex;
+  gap: 5px;
+}
+footer .footer__body__container .part1 .logo .text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.25px;
+  line-height: 2.125rem;
+  display: flex;
+  align-items: center;
+  color: #0A2640;
+}
+footer .footer__body__container .part1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+}
+footer .footer__body__container .part1 small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #777777;
+}
+footer .footer__body__container .part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer .footer__body__container .part2 span {
+  margin: 0 0 0 5px;
+  padding: 2px 14px;
+  background-color: #65E4A3;
+  border-radius: 120px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 28px;
+  color: #0A2640;
+}
+footer .footer__body__container .part2 h4 {
+  margin: 0 0 32px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: #000000;
+}
+footer .footer__body__container .part2 a {
+  margin: 0 0 32px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: #777777;
 }/*# sourceMappingURL=style.css.map */

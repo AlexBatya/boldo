@@ -631,3 +631,300 @@ main{
         }
     }
 }
+
+
+.ContactTheBast{
+    margin: 124px 0 0 0;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    &__body{
+        &__container{
+            max-width: 1100px;
+            margin: 0 auto;
+            .commentsFlex{
+                margin: 56px 0 0 0;
+                display: flex;
+                align-items: start;
+                gap: 6%;
+                .text{
+                    width: 47%;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 2.2rem;
+                    line-height: 56px;
+                    color: #000000;
+                }
+                .comments{
+                    width: 47%;
+                    hr{
+                        margin: 0 0 32px 0;
+                    }
+                    .coment{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin: 0 0 16px 0;
+                        .textCon{
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            line-height: 2rem;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ourBlog{
+    margin: 156px 0 0 0;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    &__body{
+        &__container{
+            max-width: 1100px;
+            margin: 0 auto;
+            h4{
+                margin: 0 0 12px 0;
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.25rem;
+                line-height: 2rem;
+                color: #777777;
+            }
+            h2{
+                margin: 0 0 77px 0;
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 3rem;
+                line-height: 72px;
+                color: #000000;
+            }
+            .btm{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    transition: 0.5s;
+                    border-radius: 56px;
+                    margin: 80px 0 0 0;
+                    padding: 16px 56px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                    line-height: 28px;
+                    color: #0A2640;
+
+                    border: 3px solid #0A2640;
+                    background-color: white; 
+                }
+                button:hover{
+                    color: white;
+                    border: 3px solid #69E6A6;
+                    background-color:#69E6A6; 
+                }
+            }
+
+            .cardsFlexBlog{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                .cardBlog{
+                    max-width: 300px;
+                    margin: 0 auto;
+                    .category{
+                        margin: 0 0 12px 0;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        line-height: 28px;
+                        color: #0A2640;
+                        span{
+                            margin: 0 0 0 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            line-height: 28px;
+                            color: #777777;
+                        }
+                    }
+                    p{
+                        min-height: 130px;
+                        margin: 0 0 20px 0;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        line-height: 32px;
+                        color: #000000;
+                    }
+                    .persone{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .name{
+                            margin: 0 0 0 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            line-height: 28px;
+                            color: #000000;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.formMessage{
+    margin: 120px 0 84px 0;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0A2640;
+    &__shell{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    &__body{
+        &__container{
+            max-width: 1200px;
+            margin: 0 auto;
+            h2{
+                padding: 72px 0 0 0;
+                margin: 0 auto;
+                max-width: 820px;
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 3rem;
+                line-height: 72px;
+                color: #FFFFFF;
+            }
+        }
+        form{
+            padding: 50px 0 74px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                min-width: 370px;
+                margin: 0 24px 0 0;
+                padding: 12px 32px;
+                background: #FFFFFF;
+                border: 2px solid #FFFFFF;
+                border-radius: 240px;
+
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 2rem;
+                color: #000000;
+            }
+            button{
+                padding: 16px 56px;
+                background: #65E4A3;
+                border: 2px solid #65E4A3;
+                border-radius: 56px;
+
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.25rem;
+                line-height: 28px;
+                color: #0A2640;
+
+            }
+        }
+    }
+
+}
+
+footer{
+    .footer__body{
+        &__container{
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .part1{
+                max-width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .logo{
+                    display: flex;
+                    gap: 5px;
+                    .text{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 43.25px;
+                        line-height: 2.125rem;
+                        display: flex;
+                        align-items: center;
+                        color: #0A2640;
+                    }
+                }
+                p{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 28px;
+                    color: #777777;                    
+                }
+                small{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 28px;
+                    color: #777777;                    
+                }
+            }
+            .part2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                span{
+                    margin: 0 0 0 5px;
+                    padding: 2px 14px;
+                    background-color:#65E4A3;
+                    border-radius: 120px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 0.8125rem;
+                    line-height: 28px;
+                    color: #0A2640;
+                }
+                h4{
+                    margin: 0 0 32px 0; 
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                    line-height: 32px;
+                    color: #000000;
+                }
+                a{
+                    margin: 0 0 32px 0;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    line-height: 32px;
+                    color: #777777;
+                }
+            }
+        }
+    }
+}
