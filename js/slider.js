@@ -5,7 +5,7 @@ $(document).ready(function(){
         // centerPadding: '60px',   
         responsive: [
             {
-            breakpoint: 768,
+            breakpoint: 769,
             settings: {  
                 centerMode: true,
                 centerPadding: '40px',
@@ -33,7 +33,7 @@ $(document).ready(function(){
         // centerPadding: '60px',   
         responsive: [
             {
-            breakpoint: 768,
+            breakpoint: 769,
             settings: {  
                 centerMode: true,
                 centerPadding: '40px',
@@ -41,7 +41,7 @@ $(document).ready(function(){
             }
             },
             {
-            breakpoint: 425,
+            breakpoint: 426,
             settings: {
                 centerMode: true,
                 centerPadding: '40px',
